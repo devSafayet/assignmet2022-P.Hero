@@ -42,30 +42,37 @@ h1{
 
 .mission-main-part{
     padding-left: 10%;
+    padding-bottom: 100px;
 
+}
+.mission-main-part h1{
+    text-align: center;
+}
+.mission-main-part span{
+    color:tomato;
 }
 .mission-main-box-part{
     display: flex;
 }
 .mission-box-part{
     width: 30%;
-    padding-right: 4%;
+    padding:20px 5px;
+    background-color:#EDF5F6;
+    border-radius: 20px;
+    margin-right: 10px;
+
 }
 
 .mission-box-part img{
     width: 50%;
 }
-.mission-box-part h3{
-
-}
-
-.mission-box-part p{
-
-}
 
 .vission-box-part {
     width: 30%;
-    padding-right: 4%;
+    padding:20px 5px;
+    background-color:#FFEEEE;
+    border-radius: 20px;
+    margin-right: 10px;
 }
 .vission-box-part img{
     width: 50%;
@@ -74,7 +81,48 @@ h1{
 
 .goals-box-part{
     width: 30%;
+    padding:20px 5px;
+    background-color:#FFF4D6;
+    border-radius: 20px;
 }
 .goals-box-part img{
     width: 50%;
+}
+
+
+
+
+.develop-docu-Area{
+    display: flex;
+    padding-bottom: 100px;
+}
+.develop-img-part{
+    width: 45%;
+    padding-left: 10%;
+}
+.develop-img-part img{
+    width: 70%;
+}
+
+.develop-text-part{
+    width: 40%;
+}
+
+
+
+.project-community-area{
+    display: flex;
+    padding:100px;
+}
+
+.community-img-part{
+    width: 45%;
+    padding-left: 5%;
+}
+.community-img-part img{
+    width: 70%;
+}
+.community-text-part{
+    width: 40%;
+    padding-left: 10%;
 }
