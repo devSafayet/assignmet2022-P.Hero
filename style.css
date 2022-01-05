@@ -1,0 +1,80 @@
+.header-area{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-bottom: 200px;
+}
+.header-left-area{
+    width: 40%;
+    padding-right: 10%;
+    
+}
+h1{
+    font-size: 60px;
+}
+#mission-color{
+    color: orange;
+}
+.header-left-area p{
+    font-size: 20px;
+}
+.button-link{
+    border-radius: 5px;
+    color: wheat;
+    text-decoration: none;
+    padding: 13px 30px;
+    background-color: red;
+    
+    
+}
+
+.header-right-area{
+    
+    width: 40%;
+}
+.header-right-area img{
+    width: 80%;
+}
+
+
+
+
+
+.mission-main-part{
+    padding-left: 10%;
+
+}
+.mission-main-box-part{
+    display: flex;
+}
+.mission-box-part{
+    width: 30%;
+    padding-right: 4%;
+}
+
+.mission-box-part img{
+    width: 50%;
+}
+.mission-box-part h3{
+
+}
+
+.mission-box-part p{
+
+}
+
+.vission-box-part {
+    width: 30%;
+    padding-right: 4%;
+}
+.vission-box-part img{
+    width: 50%;
+}
+
+
+.goals-box-part{
+    width: 30%;
+}
+.goals-box-part img{
+    width: 50%;
+}
