@@ -1,6 +1,7 @@
 
 body{
-
+    margin: 0;
+    
 }
 /*----------Header Area-----------*/
 
@@ -8,43 +9,54 @@ body{
     display: flex;
     margin-top: 80px;
     margin-left: 10%;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    
 }
-.border-images{
+.header-text-part{
     border-left: 5px solid;
     border-image: linear-gradient(180deg, #FF5959, tomato);
     border-image-slice: 1;
+   
+    
 }
 .header-left-area{
     width: 40%;
     padding-right: 10%;
+    padding-top: 80px;
 }
 h1{
     font-size: 60px;
+    font-family:Cursive;
+    line-height: 30px;
+    
 }
 #mission-color{
-    color: #FFAD5A;
+    color:#715077;
 }
 .header-left-area p{
     font-size: 20px;
 }
 .button-link{
     border-radius: 5px;
-    color: wheat;
+    color: #f8f7f5;
     text-decoration: none;
-    padding: 13px 30px;
-    background-color: #FF5959;
+    padding: 17px 32px;
+    background-color: rgb(80, 216, 178);
+    line-height: 33px;
 }
 
 .header-right-area{
-    
+    padding-top: 80px;
     width: 40%;
+    padding-left: 80px;
 }
 .header-right-area img{
-    width: 80%;
+    width: 90%;
 }
 
-
+.header-left-area p{
+    line-height: 30px;
+}
 
 
 /*------------------Mission Area ---------------------*/
@@ -58,7 +70,7 @@ h1{
     text-align: center;
 }
 .mission-main-part span{
-    color:tomato;
+    color:#C1A642;
 }
 .mission-main-box-part{
     display: flex;
@@ -66,9 +78,11 @@ h1{
 .mission-box-part{
     width: 30%;
     padding:20px 5px;
-    background-color:#EDF5F6;
+    background-color:#03A629;
     border-radius: 20px;
     margin-right: 10px;
+    color: white;
+    text-align: center;
 
 }
 
@@ -79,9 +93,11 @@ h1{
 .vission-box-part {
     width: 30%;
     padding:20px 5px;
-    background-color:#FFEEEE;
+    background-color:#292626;
     border-radius: 20px;
     margin-right: 10px;
+    color: white;
+    text-align: center;
 }
 .vission-box-part img{
     width: 50%;
@@ -91,13 +107,18 @@ h1{
 .goals-box-part{
     width: 30%;
     padding:20px 5px;
-    background-color:#FFF4D6;
+    background-color:#190524;
     border-radius: 20px;
+    color: white;
+    text-align: center;
 }
 .goals-box-part img{
     width: 50%;
 }
 
+#heading-two-size{
+    font-size: 25px;
+}
 
 
 /*------------------------------------ Developa Area ------------*/
@@ -116,6 +137,9 @@ h1{
 
 .develop-text-part{
     width: 40%;
+}
+#heading-two-size{
+    font-size: 25px;
 }
 
 
@@ -187,6 +211,9 @@ h1{
     padding-right:2%;
 }
 
+
+
+/*------------------------------------------------------------------*/
 
 footer{
     margin: 0;
