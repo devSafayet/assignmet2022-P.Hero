@@ -138,17 +138,54 @@ h1{
     padding-left: 10%;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------*/
+
 .our-portfolio-area{
     padding-left: 100px;
     padding-bottom:250px;
-}
-.img-portfolio-bottom-part{
-    display: flex;
+    text-align: center;
+    background-color: #FFEEEE;
 }
 .img-portfolio-Top-part{
     display: flex;
+    padding-bottom: 2%;
+    text-align: center;
 }
+.img-portfolio-1{
+    padding-right:2%;
+}
+.img-portfolio-2{
+    padding-right:2%;
+}
+.img-portfolio-2{
+    padding-right:2%;
+}
+.img-portfolio-bottom-part{
+    display: flex;
+    padding-bottom: 1%;
 
+}
+.img-portfolio-4{
+    padding-right:2%;
+}
+.img-portfolio-5{
+    padding-right:2%;
+}
+.img-portfolio-6{
+    padding-right:2%;
+}
 
 
 footer{
