@@ -137,3 +137,32 @@ h1{
     width: 40%;
     padding-left: 10%;
 }
+
+.our-portfolio-area{
+    padding-left: 100px;
+    padding-bottom:250px;
+}
+.img-portfolio-bottom-part{
+    display: flex;
+}
+.img-portfolio-Top-part{
+    display: flex;
+}
+
+
+
+footer{
+    margin: 0;
+    background-size: 200px;
+    background-color: #0B0D17;
+    text-align: center;
+    color: whitesmoke;
+    padding: 50px 0;
+}
+
+footer h3 span{
+    color: orange;
+}
+
+
+
